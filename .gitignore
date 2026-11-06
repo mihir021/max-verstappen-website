@@ -1,0 +1,61 @@
+# Dependencies and build output
+node_modules/
+dist/
+build/
+coverage/
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*.json
+*credentials*.json
+*secret*.json
+*token*.json
+.npmrc
+.netrc
+.ssh/
+.aws/
+.azure/
+.gcloud/
+
+# Recordings, archives and working files
+*.mp4
+*.mov
+*.mkv
+*.avi
+*.webm
+*.zip
+*.7z
+*.tar
+*.gz
+*.log
+*.tmp
+*.temp
+*.bak
+*.backup
+*.old
+logs/
+temp/
+tmp/
+work/
+outputs/
+backups/
+
+# Machine-specific network setup and backups
+*firewall*
+*network-backup*
+start-network.cmd
+setup-network*.ps1
+network-*.json
+
+# Editor and operating-system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+.idea/
+.vscode/

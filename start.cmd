@@ -1,0 +1,11 @@
+@echo off
+cd /d "%~dp0"
+where node >nul 2>nul
+if errorlevel 1 (
+  echo Node.js is not on PATH. Install Node.js from nodejs.org and run this launcher again.
+  pause
+  exit /b 1
+)
+start "" "http://localhost:4173"
+node serve.mjs
+pause

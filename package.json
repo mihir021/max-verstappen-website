@@ -1,0 +1,11 @@
+{
+  "name": "max-verstappen-website",
+  "version": "2.0.0",
+  "private": true,
+  "description": "A locally hosted editorial fan concept for Max Verstappen.",
+  "scripts": {
+    "start": "node serve.mjs",
+    "dev": "node serve.mjs",
+    "check": "node --check app.js && node --check portrait-engine.js && node --check serve.mjs"
+  }
+}
